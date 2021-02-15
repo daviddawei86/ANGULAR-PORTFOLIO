@@ -1,0 +1,16 @@
+<div class="container titulos">
+    <p>Técnico Superior en Desarrollo de Aplicaciones Web</p>
+    <p>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</p>
+</div>
+
+
+<hr>
+
+<div class="card-columns">
+    <!--*ngFor="let instrumento of instrumentos; let i=index"-->
+    <div class="row">
+        <div class="col-sm">
+            <app-lenguaje-tarjeta (instrumentoSeleccionado)="verLenguaje($event)" [lenguaje]="foo" [index]="i" *ngFor="let foo of lenguajes; let i=index"></app-lenguaje-tarjeta>
+        </div>
+    </div>
+</div>
