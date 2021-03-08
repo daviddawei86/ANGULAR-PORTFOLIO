@@ -17,6 +17,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { RouterModule } from '@angular/router';
+import { LogrosComponent } from './components/logros/logros.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { RouterModule } from '@angular/router';
     LenguajeTarjetaComponent,
     LenguajesComponent,
     ContactoComponent,
-    CarruselComponent
+    CarruselComponent,
+    LogrosComponent
   ],
   imports: [
     BrowserModule,

@@ -64,7 +64,7 @@ export class LenguajesService {
   },
   {
     conocimiento: '.NET',
-    experiencia:  'Lenguaje vehicular "FP Desarrollo aplicaciones multiplataforma"',
+    experiencia:  'Lenguaje vehicular "FP Desarrollo aplicaciones multiplataforma C#"',
     descripcion: 'Conocimientos altos en programación C#.',
     descripcion2: 'Desarrollo de aplicaciones de escritorio en Windows Forms .NET',
     descripcion3: 'Conocimientos en ASP.NET',
